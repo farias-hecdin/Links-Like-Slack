@@ -1,0 +1,87 @@
+.modal.slack-modal {
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+}
+
+.slack-modal h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+.slack-field {
+  margin: 10px 0;
+}
+
+.slack-field-row {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.slack-modal input[type="text"] {
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.slack-field-row input[type="text"] {
+  flex: 1;
+  min-width: 0;
+}
+
+.slack-nanoid-btn {
+  flex: 0 0 42px;
+  width: 42px;
+  min-height: 38px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.slack-error {
+  min-height: 1.2em;
+  margin: 2px 0 8px;
+  color: var(--text-error);
+  font-size: 0.85em;
+}
+
+.slack-button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.slack-button-group button {
+  flex: 1;
+  justify-content: center;
+  height: 45px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.slack-delete-container {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--background-modifier-border);
+  display: flex;
+  justify-content: center;
+}
+
+.slack-delete-btn {
+  background: transparent !important;
+  color: var(--text-error) !important;
+  box-shadow: none !important;
+  font-size: 0.9em;
+  padding: 10px;
+}
+
+.slack-url-hidden {
+  color: var(--text-faint);
+  cursor: text;
+}
+

@@ -1,0 +1,9 @@
+{
+  "id": "Links-Like-Slack",
+  "name": "Links Like Slack",
+  "version": "1.0.0",
+  "minAppVersion": "1.8.0",
+  "description": "Slack-inspired link editing using contextual popups.",
+  "author": "Farias Hecdin",
+  "isDesktopOnly": false
+}
